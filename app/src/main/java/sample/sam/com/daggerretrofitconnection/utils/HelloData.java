@@ -11,6 +11,6 @@ package sample.sam.com.daggerretrofitconnection.utils;
 public class HelloData {
 
     public String sayHello() {
-        return "Hello from LobbyHelloService";
+        return "This massge from Activity Scope";
     }
 }

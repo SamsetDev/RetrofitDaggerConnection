@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">DaggerRetrofit</string>
     
-    <string name="retry">Retry</string>
+    <string name="retry_request">Retry</string>
+    <string name="connection_error">No internet error</string>
+    <string name="internal_error">Internal server error</string>
+    <string name="data_not_found">Data Not Found</string>
+
 </resources>

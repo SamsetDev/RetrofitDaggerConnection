@@ -26,6 +26,6 @@ public class Constant {
     }
 
     public String showmsg(){
-        return "Hello friends, This is my first dagger app";
+        return "This massge from Application Scope";
     }
 }
