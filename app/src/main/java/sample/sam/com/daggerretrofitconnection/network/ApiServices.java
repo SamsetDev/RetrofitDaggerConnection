@@ -1,6 +1,8 @@
 package sample.sam.com.daggerretrofitconnection.network;
 
+import io.reactivex.Observable;
 import retrofit2.Call;
+import retrofit2.Response;
 import retrofit2.http.GET;
 import sample.sam.com.daggerretrofitconnection.view.model.MoviesResponse;
 
@@ -16,5 +18,9 @@ public interface ApiServices {
 
     @GET("movie/popular")
     Call<MoviesResponse> loadMovies();
+
+
+    @GET("movie/popular")
+    Observable<Response<MoviesResponse>> fetchm(int i);
 
 }
